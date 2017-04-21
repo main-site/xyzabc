@@ -2471,3 +2471,8 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
     .thumb-gallery{
     margin-left: 105px !important;
 }
+.people{    background: url(../image/our.png) no-repeat   !important;
+    background-size: cover;
+    background-attachment: fixed !important;
+    z-index: 1;
+}
