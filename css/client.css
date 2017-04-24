@@ -31,10 +31,11 @@ ul.thumbnails li
 {
 padding-right:0px;
 padding-left:0px;
-
+ padding: 3px;
 }
-ul.thumbnails li :hover{ box-shadow: 0 2px 2px 0 rgb(255, 255, 255), -1px 3px 20px 5px rgb(255, 255, 255), 0 3px 1px -2px rgb(255, 255, 255) !important; }
 
+ul.thumbnails button :hover{ box-shadow: 0 2px 2px 0 rgb(255, 255, 255), -1px 3px 20px 5px rgb(255, 255, 255), 0 3px 1px -2px rgb(255, 255, 255) !important; }
+.caption>h4 :hover{ box-shadow: none !important; }
 div.thumbnail
 {
 margin-bottom:0px;
@@ -45,7 +46,7 @@ margin-bottom:0px;
 
  li.small .thumbnail
 {
-margin:3px!important;
+margin:0px!important;
 
 }
 ul li ul 

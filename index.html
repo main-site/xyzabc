@@ -12,115 +12,9 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/style-media.css" rel="stylesheet" type="text/css" />
  <link rel="stylesheet" href="css/animate.css">
+ <link rel="stylesheet" type="text/css" href="css/res.css">
  <style type="text/css">
-          .typed-cursor {
-            font-size: 121px;
-            
-  opacity: 1;
-  font-weight: 10;
-  -webkit-animation: blink 0.9s infinite;
-  -moz-animation: blink 0.9s infinite;
-  -ms-animation: blink 0.9s infinite;
-  -o-animation: blink 0.9s infinite;
-  animation: blink 0.9s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-.element{
-  font-size: 121px;
-    color: #fff;
-    margin-top: 120px;
-    font-family: Monoton;
-  
-
-}
-.financial{
-  top: 100px;
-}
-.Innovation{
-  font-size: 61px;
-  color: #fff;
-}
-.Innovation1{
-      top: 121px;
-}
-
-body{
-  background: #000000;
-}
-
-.ploatjeClass{
-  position:absolute;
- }
-canvas {
-  width: 100vw;
-  height: 100vh;
-  display: absolute;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
-#fin {
-    background: #ccc;
-    background: -moz-radial-gradient(50% -50%, cover, #fff 0%, #eee 50%, #ccc 55%, #bbb 100%);
-    background: -webkit-radial-gradient(50% -50%, cover, #fff 0%, #eee 50%, #ccc 55%, #bbb 100%);
-    background: -ms-radial-gradient(50% -50%, cover, #fff 0%, #eee 50%, #ccc 55%, #bbb 100%);
-    background: -o-radial-gradient(50% -50%, cover, #fff 0%, #eee 50%, #ccc 55%, #bbb 100%);
-    background: radial-gradient(50% -50%, cover, #fff 0%, #eee 50%, #ccc 55%, #bbb 100%);
-    min-height: 100%;
-}
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-
-/*#particles-js {
-  position: absolute;
- 
-  
-}*/
-video{
-      position: fixed;
-    z-index: -9999;
-    height: auto;
-    width: 100%;
-
-}
-
-#highlight {
-    
-    vertical-align: text-top;
-    margin: 7px 1px 2px 2px;
-}
-@media (min-width: 768px)
-
-
-}
-   
-
-@media only screen and (max-width: 500px) {
-    body {
-       width: 50%;
-    }
-}
-
-}
-
-
+          
         </style>
 </head>
 
@@ -138,21 +32,21 @@ video{
   
  <div class="container">
  <div class="row">
- <div class="col-md-12" style="top:85px;">
+ <div class="col-md-12 col-xs-12 top-image">
    <div class="col-md-3 text-center col-sm-3  col-xs-3 col-md-offset-1">
-    <div  data-wow-delay="2.5s" class="wow bounceInLeft"><img src="image/b.png" alt=""  width="300" height="210"> </div>
+    <div  data-wow-delay="2.5s" class="wow bounceInLeft"><img src="image/b.png" alt=""  class="intro-text-image responsive"> </div>
   </div>
   <div class="col-md-3 text-center col-sm-3 col-xs-3">
-    <div  data-wow-delay="1.8s" class="wow bounceInLeft"><img src="image/t.png" alt=""  width="280" height="210"> </div>
+    <div  data-wow-delay="1.8s" class="wow bounceInLeft"><img src="image/t.png" alt="" class="intro-text-image"> </div>
   </div>
   <div class="col-md-3 text-center col-sm-3 col-xs-3">
-    <div  data-wow-delay="1s" class="wow bounceInLeft"><img src="image/m.png" alt=""  width="300" height="210"> </div>
+    <div  data-wow-delay="1s" class="wow bounceInLeft"><img src="image/m.png" alt="" class="intro-text-image"> </div>
     
   </div>
  </div>
 </div>
- <div class="row" style="margin-top: 158px;">
-  <div  class="col-md-10 col-md-offset-1  col-sm-10 col-xs-10 text-center">
+ <div class="row top-intro" >
+  <div  class="col-md-10 col-md-offset-1  col-sm-offset-1 col-sm-10 col-xs-10 text-center">
 
     
   
@@ -162,7 +56,7 @@ video{
 
   </div>
   
-  <div class="col-md-10 col-sm-10 col-md-offset-1 text-center">
+  <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 text-center">
     <div  data-wow-delay="3s" data-wow-duration="5.5s" class="wow zoomInDown Innovation">Innovat<img id="highlight" src="image/ion1.png">on at Work</div>
   </div>
 </div>
@@ -205,7 +99,7 @@ setInterval(function(){ changeImage(); }, 1000);
 </script>
 <script type="text/javascript">
   $(document).ready(function(){
-  $('body').bind('mousewheel', function(e){
+ $('body').bind('mousewheel', function(e){
         if(e.originalEvent.wheelDelta  > 0) {
            window.location.href = 'home.html'
         }
@@ -213,9 +107,10 @@ setInterval(function(){ changeImage(); }, 1000);
              window.location.href = 'home.html'
         }
     });
-    setTimeout(function(){ $( ".bounceInLeft" ).mousemove(function( event ) {
+    setTimeout(function(){ $( "body" ).mousemove(function( event ) {
+      
        window.location.href = 'home.html'
-});}, 5000);
+});}, 8000);
   
 
      $('body').bind('click', function(e){
@@ -225,8 +120,7 @@ setInterval(function(){ changeImage(); }, 1000);
   var vid = document.getElementById('bgvid');
 function setPlaySpeed() { 
     vid.playbackRate = 20;
-}
-/*setTimeout(function(){  window.location.href = 'home.html' }, 20000);*/
+}setTimeout(function(){  window.location.href = 'home.html' }, 14000);
 </script>
 
 
