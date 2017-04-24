@@ -2662,3 +2662,6 @@ a:focus .video-link-icon {
     padding: 0px;
     border: none;
 }
+.logo-img-solution{
+	     max-height: 150px;
+}
