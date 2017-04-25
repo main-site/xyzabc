@@ -2652,8 +2652,10 @@ a:focus .video-link-icon {
     background: #fff;
     color: #e89a3e;
 }
+
 .logo-img{
   max-height: 150px;
+  margin-left: 0em;
 }
 .modal-body {
     position: relative;
@@ -2663,6 +2665,13 @@ a:focus .video-link-icon {
     padding: 0px;
     border: none;
 }
-.logo-img-solution{
-	     max-height: 150px;
+.logo-img-solution {
+    max-height: 150px;
+        margin-left: -9.1em
+}
+.ga{
+	height: 200px;
+}
+.ut{
+	height: 263px;
 }
