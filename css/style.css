@@ -1169,7 +1169,7 @@ width: 100%;
 }
 .why-choose-us-area {
 
-    background: url(../image/back2.png) no-repeat scroll center center !important;
+    background: url(../image/back2.png) no-repeat  !important;
         min-height: 835px;
 }
 .why-choose-us-area .service-group-1 p {
@@ -1188,7 +1188,7 @@ width: 100%;
 }
 .history-area {
 
-    background: url(../image/back3.png) no-repeat scroll center center !important;
+    background: url(../image/back3.png) no-repeat  !important;
         min-height:700px;
 }
 .modal-content {
@@ -1435,7 +1435,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
 .process-area {
     /*padding: 98px 0px 50px 0px;*/
         /*background: #515f2f;*/
-        background: url(../image/sl.png) no-repeat scroll center center !important;
+        background: url(../image/sl.png) no-repeat  !important;
 }
 .section-header {
     text-align: center;
@@ -1835,14 +1835,14 @@ a, .btn, button {
     color: darkgray;
 }
         	.about-us-area {
-    background: url(../image/2.png) no-repeat scroll center center !important;
+    background: url(../image/2.png) no-repeat  !important;
     background-size: cover;
     /* position: relative; */
     z-index: 1;
     background-attachment: fixed !important;
 }
 .solutions-index{
- background: url(../image/sl1.png) no-repeat scroll center center !important;
+ background: url(../image/sl1.png) no-repeat  !important;
     background-size: cover;
     /* position: relative; */
     z-index: 1;    
@@ -1968,7 +1968,7 @@ width: 100%;
 
 }
 .why-choose-us-area {
-    background: url(../image/back2.png) no-repeat scroll center center !important;
+    background: url(../image/back2.png) no-repeat  !important;
     min-height: 835px;
     background-attachment: fixed !important;
 }
@@ -1987,7 +1987,7 @@ width: 100%;
 	/*display: none;*/
 }
 .history-area {
-    background: url(../image/back3.png) no-repeat scroll center center !important;
+    background: url(../image/back3.png) no-repeat  !important;
     min-height: 700px;
     background-attachment: fixed !important;
 }
@@ -2235,7 +2235,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
 .process-area {
     /*padding: 98px 0px 50px 0px;*/
         /*background: #515f2f;*/
-        background: url(../image/sl.png) no-repeat scroll center center !important;
+        background: url(../image/sl.png) no-repeat  !important;
             background-attachment: fixed !important;
 }
 .section-header {
@@ -2245,7 +2245,8 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
     max-width: 100%;
     margin: 0;
     position: relative;
-    padding-top: 0px;
+    
+        margin-top: 69px;
 }
 .process-area .p-timeline:before {
     position: absolute;
@@ -2383,7 +2384,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
 .process-area .p-timeline .column {
     width: 50%;
     float: left;
-    margin-bottom: 4em;
+    margin-bottom: 9em;
     position: relative;
 }
 .process-area .p-timeline .column:nth-child(even):after {
