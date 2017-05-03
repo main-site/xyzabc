@@ -1,0 +1,44 @@
+.image-cropper {
+        width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+img {
+        display: inline;
+    margin: 0 auto;
+    /* height: 100%; */
+    width: auto;
+}
+.team{
+  color: #fff;
+}
+.team>h1{
+  font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 44.4px;
+    color: #fff;
+    font-family: rexlia;
+    letter-spacing: 1px;
+  }
+  .team>h2{
+    font-size: 20px;
+    font-family: rexlia;
+  }
+  .team>p{
+        font-size: 12px;
+    margin-top: 13px;
+  }
+  .line { 
+    margin: 25px 0;
+    height: 1px;
+    
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(0, 149, 81) 100%);
+}
