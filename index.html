@@ -11,8 +11,7 @@
       <link href="css/style-media.css" rel="stylesheet" type="text/css" />
       <link rel="stylesheet" href="css/animate.css">
       <link rel="stylesheet" type="text/css" href="css/res.css">
-      <style type="text/css">
-      </style>
+     
    </head>
    <body>
       <!-- started id wrap  -->
@@ -37,6 +36,7 @@
             <div class="row top-intro" >
                <div  class="col-md-10 col-md-offset-1  col-sm-offset-1 col-sm-10 col-xs-10 text-center">
                   <span class="element"></span>
+                  
                   <br>
                </div>
                <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 text-center">
@@ -65,11 +65,18 @@
             }
          }
          setInterval(function(){ changeImage(); }, 1000);
+           $(".element").typed({
+        strings: ["FINANCIAL"],
+        typeSpeed: 250,
+        startDelay: 3000,
+        showCursor: false,
+      });
          
          
+      
          
       </script>
-      <!-- <script type="text/javascript">
+      <script type="text/javascript">
          $(document).ready(function(){
          $('body').bind('mousewheel', function(e){
                if(e.originalEvent.wheelDelta  > 0) {
@@ -95,6 +102,6 @@
          function setPlaySpeed() { 
            vid.playbackRate = 20;
          }setTimeout(function(){  window.location.href = 'home.html' }, 14000);
-      </script> -->
+      </script> 
    </body>
 </html>

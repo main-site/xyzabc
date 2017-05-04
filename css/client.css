@@ -13,6 +13,11 @@
     float: none;
 }
 
+.logo-img-ie {
+    max-height: 150px;
+    margin-left: -9em;
+}
+
    .caption {
     display: none;
     position: absolute;
