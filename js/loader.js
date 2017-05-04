@@ -1,4 +1,3 @@
-
 ;(function($) {
     "use strict";
     var count = 0;
@@ -33,9 +32,9 @@
     }
   
 
-    new WOW({ callback: afterReveal }).init();
     
-   
+    
+    new WOW({ callback: afterReveal }).init();
     
     
     // preloader js

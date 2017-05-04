@@ -1062,10 +1062,7 @@ a, .btn, button {
 }
 @font-face {
     font-family: rexlia;
-    src: url(../fonts/rexliarg.ttf) format('truetype'), 
-             url(../fonts/rexliarg.woff) format('woff'), 
-
-
+    src: url(../fonts/rexliarg.ttf);
 }
 @font-face {
     font-family: Neuton;
