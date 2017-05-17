@@ -57,11 +57,18 @@ ul.thumbnails button {
         box-shadow: none;
     transition: box-shadow 1s;
      }
-ul.thumbnails button :hover{ 
+ul.thumbnails button { 
+        box-shadow: none;
+    transition: box-shadow 1s;
+     }
+.small>button :hover{ 
 box-shadow: 0 2px 2px 0 rgb(255, 255, 255), -1px 3px 20px 5px rgb(255, 255, 255), 0 3px 1px -2px rgb(255, 255, 255) !important; 
  transition: box-shadow 1s;
     }
-.caption>h4 :hover{ box-shadow: none !important; }
+    .small>button>.thumbnail>.caption>h4:hover{ 
+ box-shadow: none !important; 
+    }
+
 div.thumbnail
 {
 margin-bottom:0px;
@@ -96,7 +103,7 @@ background:#fdf;
         text-align: center;
         margin: 10px;
     }
-    .clients_p>p:last-child{
+ .clients_p>p:last-child{
         margin-bottom:  50px !important;
     }
 
@@ -158,11 +165,14 @@ ul.thumbnails button {
         box-shadow: none;
     transition: box-shadow 1s;
      }
-ul.thumbnails button :hover{ 
+.small>button :hover{ 
 box-shadow: 0 2px 2px 0 rgb(255, 255, 255), -1px 3px 20px 5px rgb(255, 255, 255), 0 3px 1px -2px rgb(255, 255, 255) !important; 
  transition: box-shadow 1s;
     }
-.caption>h4 :hover{ box-shadow: none !important; }
+    .small>button>.thumbnail>.caption>h4:hover{ 
+ box-shadow: none !important; 
+    }
+
 div.thumbnail
 {
 margin-bottom:0px;
@@ -203,7 +213,7 @@ background:#fdf;
     }
 
 
-    .caption>a>h4{
+    .small>button>.thumbnail>.caption>a>h4{
         text-align: center;
     margin-top: 2em;
     font-size: 26px;

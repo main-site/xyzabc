@@ -487,6 +487,7 @@
          
                 var ids=$(this).children().first().attr('id').trim();
                      $('#'+ids).css("display", "none");
+                     $( '#'+ids).css("box-shadow", "none !important");
                          var val=ids.replace("caption-", "");
                      abc=parseInt(val);
          
@@ -510,12 +511,11 @@
                 
                
                 $('.thumbnail').mouseover(function() {
-         
-         
-                 clearInterval(myVar);
-                 cloaseAll();
+                  clearInterval(myVar);
+                  cloaseAll();
                   var ids=$(this).children().first().attr('id').trim();
-                     $('#'+ids).css("display", "block");
+                   $('#'+ids).css("box-shadow", "none !important");
+                   $('#'+ids).css("display", "block");
                 });
                 
                 
@@ -524,7 +524,7 @@
                 function openOne(i){
                   
                   cloaseAll();
-                      $('#caption-'+i).css("display", "block");
+                    $('#caption-'+i).css("display", "block");
                       $( '#caption-'+i).parent('.thumbnail').css("box-shadow", "0 2px 2px 0 rgb(255, 255, 255), -1px 3px 20px 5px rgb(255, 255, 255), 0 3px 1px -2px rgb(255, 255, 255)");
                       $( '#caption-'+i).parent('.thumbnail').css("transition", "box-shadow 1s");
                    
