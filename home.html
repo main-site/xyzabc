@@ -228,7 +228,7 @@
                <div class="col-md-12 col-sm-12 text-center">
                   <p class="address"> <i class="pe-7s-map-marker"></i>  BTM Financial LLC,
                      4 Canterbury Road,
-                     Denville, NJ -07834,United State.
+                     Denville, NJ -07834,United States
                   </p>
                   <p class="address">
                      <i class="pe-7s-call"></i> <a href="tel:+18624371138">+1-862-437-1138</a>
@@ -487,7 +487,6 @@
          
                 var ids=$(this).children().first().attr('id').trim();
                      $('#'+ids).css("display", "none");
-                     $( '#'+ids).css("box-shadow", "none !important");
                          var val=ids.replace("caption-", "");
                      abc=parseInt(val);
          
@@ -511,11 +510,12 @@
                 
                
                 $('.thumbnail').mouseover(function() {
-                  clearInterval(myVar);
-                  cloaseAll();
+         
+         
+                 clearInterval(myVar);
+                 cloaseAll();
                   var ids=$(this).children().first().attr('id').trim();
-                   $('#'+ids).css("box-shadow", "none !important");
-                   $('#'+ids).css("display", "block");
+                     $('#'+ids).css("display", "block");
                 });
                 
                 
@@ -524,7 +524,7 @@
                 function openOne(i){
                   
                   cloaseAll();
-                    $('#caption-'+i).css("display", "block");
+                      $('#caption-'+i).css("display", "block");
                       $( '#caption-'+i).parent('.thumbnail').css("box-shadow", "0 2px 2px 0 rgb(255, 255, 255), -1px 3px 20px 5px rgb(255, 255, 255), 0 3px 1px -2px rgb(255, 255, 255)");
                       $( '#caption-'+i).parent('.thumbnail').css("transition", "box-shadow 1s");
                    
