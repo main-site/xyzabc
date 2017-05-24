@@ -141,7 +141,7 @@ a {
 	float: left;
 	padding: 0;
 }
-.darkcounter ul.countdown li.day span.days { color:#333;} 
+.darkcounter ul.countdown li.day span.days { color:#333;}
 .counter ul.countdown .hour {
 	margin: 18px 0 6px 0;
 }
@@ -185,7 +185,7 @@ a {
 	background: #fff;
 	margin: -55px -3px 0 0;
 	padding: 0px 14px 0px 14px;
-	height: 52px; 
+	height: 52px;
 	border: none;
 	float: right;
 	font-weight: 900;
@@ -214,12 +214,12 @@ a {
 }
 
 .spacenotify  input[type=submit].yellow {
-    background:#f6f903 !important;	
+    background:#f6f903 !important;
 	}
 .spacenotify  input[type=submit].yellow:hover{
    background: #F26841 !important;
     color: #fff !important;
-	}	
+	}
 
 
 /* ==================================================
@@ -825,18 +825,18 @@ canvas{opacity: 0.5 ;}
     width: 96%;
     display: inline-block;
     padding: 8px 2%;
-	
+
 }
 
 #result .error {
 	border:1px solid  #900;
 	background:#DFA9A9;
 	color:#900;
-	font-size:16px; 
+	font-size:16px;
     width:96%;
     display: inline-block;
     padding:8px 2%;
-    margin: 0 0 12px 0;	
+    margin: 0 0 12px 0;
 }
 
 
@@ -847,15 +847,15 @@ canvas{opacity: 0.5 ;}
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color:#fff;  
+   color:#fff;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color:#fff;  
+   color:#fff;
 }
 
-:-ms-input-placeholder {  
-   color:#fff;  
+:-ms-input-placeholder {
+   color:#fff;
 }
 
 
@@ -864,15 +864,15 @@ canvas{opacity: 0.5 ;}
 }
 
 .darkcounter :-moz-placeholder { /* Firefox 18- */
-   color:#333;  
+   color:#333;
 }
 
 .darkcounter ::-moz-placeholder {  /* Firefox 19+ */
-   color:#333;  
+   color:#333;
 }
 
-.darkcounter :-ms-input-placeholder {  
-   color:#333;  
+.darkcounter :-ms-input-placeholder {
+   color:#333;
 }
 
 .address>a {
@@ -1046,7 +1046,7 @@ a, .btn, button {
  background: url(../image/sl1.png) no-repeat scroll center center !important;
     background-size: cover;
     /* position: relative; */
-    z-index: 1;    
+    z-index: 1;
 }
 .solutions-index:after {
     content: '';
@@ -1062,8 +1062,8 @@ a, .btn, button {
 }
 @font-face {
     font-family: rexlia;
-    src: url(../fonts/rexliarg.ttf) format('truetype'), 
-             url(../fonts/rexliarg.woff) format('woff'), 
+    src: url(../fonts/rexliarg.ttf) format('truetype'),
+             url(../fonts/rexliarg.woff) format('woff'),
 
 
 }
@@ -1087,21 +1087,21 @@ a, .btn, button {
 	color: #fff;
 		}
 		.main-nav>li>.st {
-   
+
     animation: fadein 2s !important;
     -moz-animation: fadein 2s !important; /* Firefox */
     -webkit-animation: fadein 2s !important; /* Safari and Chrome */
     -o-animation: fadein 2s !important; /* Opera */
 }
 .main-nav>li>.nd {
-   
+
     animation: fadein 3s !important;
     -moz-animation: fadein 3s !important; /* Firefox */
     -webkit-animation: fadein 3s !important; /* Safari and Chrome */
     -o-animation: fadein 3s !important; /* Opera */
 }
 .main-nav>li>.rd {
-   
+
     animation: fadein 4s;
     -moz-animation: fadein 4s; /* Firefox */
     -webkit-animation: fadein 4s; /* Safari and Chrome */
@@ -1141,14 +1141,14 @@ a, .btn, button {
 }
 
 
-.slide-center-out 
+.slide-center-out
 {
 text-decoration:none;
 display: inline-block;
 color:blue;
 }
 /* add a empty string after the elment with class .slide-center-out  */
-.slide-center-out:after 
+.slide-center-out:after
 {
 content: '';
 display: block;
@@ -1163,7 +1163,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
 }
 
 /* Change the width and background on hover, aka sliding from the middle to the left and right */
-.slide-center-out:hover:after 
+.slide-center-out:hover:after
 {
 width: 100%;
 /*background: #fff;*/
@@ -1176,7 +1176,7 @@ width: 100%;
         min-height: 835px;
 }
 .why-choose-us-area .service-group-1 p {
-    
+
     color: white !important;
 }
 .service-group-1 .content h2 {
@@ -1209,11 +1209,11 @@ width: 100%;
     color: #fff !important;
 }
 .modal-header {
-    
+
     border-bottom: none !important;
 }
 .box-i {
-  
+
     border: 1px solid #fff;
  }
     .about-us-area .a-text .section-header p {
@@ -1224,7 +1224,7 @@ width: 100%;
 }
 
 h1 {
-	
+
 	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
@@ -1292,7 +1292,7 @@ header-top .top-nav li a {
 .main-h{    top: 50px;}
 a:hover, a:focus {
 
-    text-decoration:none !important; 
+    text-decoration:none !important;
 }
 draw {
     transition: color 0.25s;
@@ -1316,7 +1316,7 @@ draw {
     bottom: 0;
     right: 0;
   }
-  
+
   &:hover {
     color: $cyan;
   }
@@ -1350,14 +1350,14 @@ draw {
     /* background: #fff; */
     background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(0, 149, 81) 100%);
 }
-.slide-center-out-active-main 
+.slide-center-out-active-main
 {
 text-decoration:none;
 display: inline-block;
 color:blue;
 }
 /* add a empty string after the elment with class .slide-center-out  */
-.slide-center-out-active-main:after 
+.slide-center-out-active-main:after
 {
 content: '';
 display: block;
@@ -1376,7 +1376,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
     background-color: transparent;;
  font-family: rexlia;
     color: white;
-    
+
     font-size: 18px;
     border: none;
     cursor: pointer;
@@ -1649,7 +1649,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
 .service-h{
 
     font-family: rexlia;
-       
+
     color: #fff;
     /* top: 50px; */
     margin-top: 50px;
@@ -1672,7 +1672,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
     }
     .small{
         width: 26% !important;
-    } 
+    }
     .thumb-gallery{
     margin-left: 105px !important;
 }
@@ -1842,14 +1842,14 @@ a, .btn, button {
     background-size: cover;
     /* position: relative; */
     z-index: 1;
-    
+
     background-attachment: fixed !important;
     background-size: cover !important;
 }
 .solutions-index{
  background: url(../image/sl1.png) no-repeat  !important;
-    
-    z-index: 1;    
+
+    z-index: 1;
         background-attachment: fixed !important;
         background-size: cover !important;
 }
@@ -1889,21 +1889,21 @@ a, .btn, button {
 	color: #fff;
 		}
 		.main-nav>li>.st {
-   
+
     animation: fadein 2s !important;
     -moz-animation: fadein 2s !important; /* Firefox */
     -webkit-animation: fadein 2s !important; /* Safari and Chrome */
     -o-animation: fadein 2s !important; /* Opera */
 }
 .main-nav>li>.nd {
-   
+
     animation: fadein 3s !important;
     -moz-animation: fadein 3s !important; /* Firefox */
     -webkit-animation: fadein 3s !important; /* Safari and Chrome */
     -o-animation: fadein 3s !important; /* Opera */
 }
 .main-nav>li>.rd {
-   
+
     animation: fadein 4s;
     -moz-animation: fadein 4s; /* Firefox */
     -webkit-animation: fadein 4s; /* Safari and Chrome */
@@ -1943,14 +1943,14 @@ a, .btn, button {
 }
 
 
-.slide-center-out 
+.slide-center-out
 {
 text-decoration:none;
 display: inline-block;
 color:blue;
 }
 /* add a empty string after the elment with class .slide-center-out  */
-.slide-center-out:after 
+.slide-center-out:after
 {
 content: '';
 display: block;
@@ -1965,7 +1965,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
 }
 
 /* Change the width and background on hover, aka sliding from the middle to the left and right */
-.slide-center-out:hover:after 
+.slide-center-out:hover:after
 {
 width: 100%;
 /*background: #fff;*/
@@ -1980,7 +1980,7 @@ width: 100%;
     background-size: cover !important;
 }
 .why-choose-us-area .service-group-1 p {
-    
+
     color: white !important;
 }
 .service-group-1 .content h2 {
@@ -2014,11 +2014,11 @@ width: 100%;
     color: #fff !important;
 }
 .modal-header {
-    
+
     border-bottom: none !important;
 }
 .box-i {
-  
+
     border: 1px solid #fff;
  }
     .about-us-area .a-text .section-header p {
@@ -2029,7 +2029,7 @@ width: 100%;
 }
 
 h1 {
-	
+
 	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
@@ -2089,7 +2089,7 @@ header-top .top-nav li a {
       color: #fff;
 
     }
-    .main-nav{    margin-top: 10px;}
+    .main-nav{    margin-top: 30px;}
     .pe-7s-mail:before {
     content: "\e639";
     vertical-align: middle;
@@ -2097,7 +2097,7 @@ header-top .top-nav li a {
 .main-h{    top: 50px;}
 a:hover, a:focus {
 
-    text-decoration:none !important; 
+    text-decoration:none !important;
 }
 draw {
     transition: color 0.25s;
@@ -2121,7 +2121,7 @@ draw {
     bottom: 0;
     right: 0;
   }
-  
+
   &:hover {
     color: $cyan;
   }
@@ -2155,14 +2155,14 @@ draw {
     /* background: #fff; */
     background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(0, 149, 81) 100%);
 }
-.slide-center-out-active-main 
+.slide-center-out-active-main
 {
 text-decoration:none;
 display: inline-block;
 color:blue;
 }
 /* add a empty string after the elment with class .slide-center-out  */
-.slide-center-out-active-main:after 
+.slide-center-out-active-main:after
 {
 content: '';
 display: block;
@@ -2181,7 +2181,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
     background-color: transparent;;
  font-family: rexlia;
     color: white;
-    
+
     font-size: 18px;
     border: none;
     cursor: pointer;
@@ -2254,7 +2254,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
     max-width: 100%;
     margin: 0;
     position: relative;
-    
+
         margin-top: 69px;
 }
 .process-area .p-timeline:before {
@@ -2457,7 +2457,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
 .service-h{
 
     font-family: rexlia;
-       
+
     color: #fff;
     /* top: 50px; */
     margin-top: 50px;
@@ -2480,7 +2480,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
     }
     .small{
         width: 26% !important;
-    } 
+    }
     .thumb-gallery{
     margin-left: 105px !important;
 }
@@ -2489,11 +2489,11 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
     background-attachment: fixed !important;
     z-index: 1;
 }
-::-webkit-scrollbar              { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+::-webkit-scrollbar              { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     -webkit-border-radius: 10px;
     border-radius: 10px; }
 ::-webkit-scrollbar-button       { /* 2 */ }
-::-webkit-scrollbar-track        { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+::-webkit-scrollbar-track        { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     -webkit-border-radius: 10px;
     border-radius: 10px; }
 ::-webkit-scrollbar-track-piece  { /* 4 */ }
@@ -2502,11 +2502,11 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
     background: rgb(62, 62, 28);
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  }
 ::-webkit-scrollbar-corner       { /* 6 */ }
-::-webkit-resizer 
+::-webkit-resizer
 
 .typed-cursor {
             font-size: 121px;
-            
+
   opacity: 1;
   font-weight: 10;
   -webkit-animation: blink 0.9s infinite;
@@ -2535,7 +2535,7 @@ margin:auto; /* center the cotent so it will sliding from the midddle to the lef
     color: #fff;
     margin-top: 120px;
     font-family: Monoton;
-  
+
 
 }
 .financial{
@@ -2581,8 +2581,8 @@ canvas {
 
 /*#particles-js {
   position: absolute;
- 
-  
+
+
 }*/
 video{
       position: fixed;
@@ -2593,7 +2593,7 @@ video{
 }
 
 #highlight {
-    
+
     vertical-align: text-top;
     margin: 7px 1px 2px 2px;
 }
@@ -2610,26 +2610,26 @@ video{
 .video-link {
     padding-top: 70px;
 }
- 
+
 .video-link a:hover,
 .video-link a:focus {
     outline: 0;
 }
- 
+
 a .video-link-text {
     color: #fff;
     opacity: 0.8;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
- 
-a:hover .video-link-text, 
+
+a:hover .video-link-text,
 a:focus .video-link-text {
     outline: 0;
     color: #fff;
     opacity: 1;
     border-bottom: 1px dotted #fff;
 }
- 
+
 a .video-link-icon {
     position: relative;
     display: inline-block;
@@ -2654,7 +2654,7 @@ a .video-link-icon:after {
     z-index: -99;
     -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
- 
+
 a:hover .video-link-icon,
 a:focus .video-link-icon {
     outline: 0;

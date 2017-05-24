@@ -1,12 +1,17 @@
 @media only screen and (min-width: 1201px) and (max-width: 1600px){
 .mobile{
-    display: none;
+    display: none !important;
+}
+}
+@media only screen and (min-width: 1601px) and (max-width: 2400px){
+.mobile{
+    display: none !important;
 }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1200px)
 {
 .main-nav>li>a {
-    
+
     color: #fff;
     text-align: center;
     padding: 27px;
@@ -30,7 +35,7 @@ h1 {
 
 {
     .main-nav>li>a {
-    
+
     color: #fff;
     text-align: center;
     padding: 24px;
@@ -74,10 +79,10 @@ h1 {
     margin-left: 10em;
 }
 .main-h {
-    top: 0px; 
+    top: 0px;
 }
 .main-nav>li>a {
-    
+
     color: #fff;
     text-align: center;
     padding: 25px 0px 0px 53px;
@@ -156,6 +161,21 @@ h1 {
 }
 
 }
+@media only screen and (min-width: 446px) and (max-width: 567px){
+  .main-nav li {
+      display: block !important;
+  }
+  .main-nav>li>a {
+      color: #fff;
+      text-align: center;
+      padding: 26px 0px 0px 54px !important;
+      font-family: rexlia;
+      font-size: 18px;
+      font-style: normal;
+      font-variant: normal;
+      color: #fff;
+  }
+}
 @media only screen and (min-width: 481px) and (max-width: 767px)
  {
 .top-image{top: 82px;
@@ -171,7 +191,7 @@ h1 {
     margin-left: 0em;
 }
 .Innovation {
-    
+
     font-size: 48px;
     margin-left: -2.5em;
 }
@@ -208,7 +228,7 @@ h1 {
     margin-left: 0px !important;
 }
 .small {
-    width: 91% !important;  
+    width: 91% !important;
 }
 .caption>a>h4 {
     text-align: center;
@@ -239,7 +259,7 @@ h1 {
 /*solution*/
 
 .home-mail {
- display: none;  
+ display: none;
 }
 .service-h>.ana-h3{
           font-size: 27px;
@@ -280,8 +300,8 @@ h1 {
     margin-left: 0.5em
 }
 .Innovation {
-    
-    font-size: 19px; 
+
+    font-size: 19px;
         margin-left: -2em;
 }
 #highlight{
@@ -294,12 +314,12 @@ h1 {
 }
 /*home page*/
 .home-mail {
- display: none;  
+ display: none;
 }
 .main-nav>li>a {
        padding: 17px 0px 0px 60px;
     font-size: 17px;
-   
+
 }
 .main-h {
     top: 10px;
@@ -378,7 +398,7 @@ h1 {
     text-align: left;
 }
 .process-area .p-timeline .column:before {
-    
+
     display: none;
 }
 .process-area .p-timeline .column:after {
@@ -387,10 +407,10 @@ h1 {
 }
 .process-area .p-timeline .column .timeline {
     width: 100%;
-    
+
 }
 .process-area .p-timeline .column .media .media-body h2 {
-    
+
     color: #fff;
     display: inline-block;
        font-size: 14px;
@@ -410,7 +430,7 @@ h1 {
     padding-left: 0;
 }
 .process-area .p-timeline .column:nth-child(even).top {
-     margin-top: 0px; 
+     margin-top: 0px;
 }
 .process-area .p-timeline {
    max-width: 100%;
@@ -439,8 +459,8 @@ h1 {
           margin-left: 6.5%;
 }
 .Innovation {
-    
-    font-size: 19px; 
+
+    font-size: 19px;
             margin-left: 1%;
 }
 #highlight{
@@ -454,7 +474,7 @@ h1 {
 
 /*home page*/
 .home-mail {
- display: none;  
+ display: none;
 }
 .main-nav>li>a {
     /* font-size: 20px; */
@@ -481,7 +501,7 @@ h1 {
     line-height: 29.4px;
     color: #fff;
     font-family: rexlia;
-    letter-spacing: 1px;    
+    letter-spacing: 1px;
 }
 .why-choose-us-area:after {
     display: none;
@@ -538,4 +558,3 @@ h1 {
 
  }
 }
-
