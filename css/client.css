@@ -3,8 +3,8 @@
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     #hover-cap-4col .thumbnail {
     position:relative;
-    overflow:hidden;  
-    list-style:none;  
+    overflow:hidden;
+    list-style:none;
 }
 .small > button {
     display: block;
@@ -18,6 +18,10 @@
     max-height: 150px;
     margin-left: -9em;
 }
+.logo-img-ie-main{
+  max-height: 150px;
+  margin-left: 0em;
+}
 
    .caption {
     display: none;
@@ -28,14 +32,14 @@
     background: rgba(0,0,0,0.4);
     width: 100%;
     height: 100%;
- 
+
     color:#fff !important;
         }
 ul.thumbnails, ul.thumbnails ul
     {
         list-style: none;
       margin-top:-3px;
-  
+
     }
 
 
@@ -43,30 +47,30 @@ ul.thumbnails ul, ul.thumbnails
 {
 padding:0px;
 }
-ul.thumbnails li 
+ul.thumbnails li
 {
 padding-right:0px;
 padding-left:0px;
  padding: 3px;
- 
+
   transition: box-shadow 1s;
 }
 
 
-ul.thumbnails button { 
+ul.thumbnails button {
         box-shadow: none;
     transition: box-shadow 1s;
      }
-ul.thumbnails button { 
+ul.thumbnails button {
         box-shadow: none;
     transition: box-shadow 1s;
      }
-.small>button :hover{ 
-box-shadow: 0 2px 2px 0 rgb(255, 255, 255), -1px 3px 20px 5px rgb(255, 255, 255), 0 3px 1px -2px rgb(255, 255, 255) !important; 
+.small>button :hover{
+box-shadow: 0 2px 2px 0 rgb(255, 255, 255), -1px 3px 20px 5px rgb(255, 255, 255), 0 3px 1px -2px rgb(255, 255, 255) !important;
  transition: box-shadow 1s;
     }
-    .small>button>.thumbnail>.caption>h4:hover{ 
- box-shadow: none !important; 
+    .small>button>.thumbnail>.caption>h4:hover{
+ box-shadow: none !important;
     }
 
 div.thumbnail
@@ -82,7 +86,7 @@ margin-bottom:0px;
 margin:0px!important;
 
 }
-ul li ul 
+ul li ul
 {
 margin-top:-3px;
 }
@@ -124,8 +128,8 @@ background:#fdf;
 /* chrome firefox */
  #hover-cap-4col .thumbnail {
     position:relative;
-    overflow:hidden;  
-    list-style:none;  
+    overflow:hidden;
+    list-style:none;
 }
    .caption {
     display: none;
@@ -136,14 +140,14 @@ background:#fdf;
     background: rgba(0,0,0,0.4);
     width: 100%;
     height: 100%;
- 
+
     color:#fff !important;
         }
 ul.thumbnails, ul.thumbnails ul
     {
         list-style: none;
       margin-top:-3px;
-  
+
     }
 
 
@@ -151,26 +155,26 @@ ul.thumbnails ul, ul.thumbnails
 {
 padding:0px;
 }
-ul.thumbnails li 
+ul.thumbnails li
 {
 padding-right:0px;
 padding-left:0px;
  padding: 3px;
- 
+
   transition: box-shadow 1s;
 }
 
 
-ul.thumbnails button { 
+ul.thumbnails button {
         box-shadow: none;
     transition: box-shadow 1s;
      }
-.small>button :hover{ 
-box-shadow: 0 2px 2px 0 rgb(255, 255, 255), -1px 3px 20px 5px rgb(255, 255, 255), 0 3px 1px -2px rgb(255, 255, 255) !important; 
+.small>button :hover{
+box-shadow: 0 2px 2px 0 rgb(255, 255, 255), -1px 3px 20px 5px rgb(255, 255, 255), 0 3px 1px -2px rgb(255, 255, 255) !important;
  transition: box-shadow 1s;
     }
-    .small>button>.thumbnail>.caption>h4:hover{ 
- box-shadow: none !important; 
+    .small>button>.thumbnail>.caption>h4:hover{
+ box-shadow: none !important;
     }
 
 div.thumbnail
@@ -186,7 +190,7 @@ margin-bottom:0px;
 margin:0px!important;
 
 }
-ul li ul 
+ul li ul
 {
 margin-top:-3px;
 }
