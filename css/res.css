@@ -76,7 +76,7 @@ h1 {
 }
 .main-nav {
     margin-top: 10px;
-    margin-left: 10em;
+    margin-left: 10%;
 }
 .main-h {
     top: 0px;
@@ -87,7 +87,7 @@ h1 {
     text-align: center;
     padding: 25px 0px 0px 53px;
     font-family: rexlia;
-    font-size: 15px;
+    font-size: 14px;
     font-style: normal;
     font-variant: normal;
     color: #fff;
@@ -216,7 +216,7 @@ h1 {
     text-align: center;
       padding: 28px 0px 0px 20px;
     font-family: rexlia;
-    font-size: 13px;
+    font-size: 17px;
     font-style: normal;
     font-variant: normal;
     color: #fff;
