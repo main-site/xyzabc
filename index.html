@@ -64,7 +64,7 @@
                 image.src = "image/ion1.png";
             }
          }
-         setInterval(function(){ changeImage(); }, 1000);
+      //   setInterval(function(){ changeImage(); }, 1000);
            $(".element").typed({
         strings: ["FINANCIAL"],
         typeSpeed: 250,
@@ -73,10 +73,14 @@
       });
       function preloadMyImages()
       {
+         setInterval(function(){ changeImage(); }, 1000);
           var imageList = [
               "image/b.png",
               "image/t.png",
-              "image/m.png"
+              "image/m.png",
+              "image/ioff1.png",
+              "image/ion1.png",
+
           ];
           for(var i = 0; i < imageList.length; i++ )
           {
