@@ -7,7 +7,7 @@
     display: none !important;
 }
 }
-@media only screen and (min-width: 980px) and (max-width: 1271px){
+@media only screen and (min-width: 980px) and (max-width: 1200px){
 .mobile{
     display: none !important;
 }
