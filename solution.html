@@ -20,7 +20,7 @@
 
 </style>
    </head>
-   <body>
+   <body onload="preloadMyImages();">
       <section class="solutions-index" style="min-height: 835px">
         <div class="container" >
            <div class="row">
@@ -395,5 +395,26 @@ BTM can provide a team for a single person to any size for the project required 
       <script src="js/typed.js" type="text/javascript"></script>
       <script src="js/typed.js" type="text/javascript"></script>
       <script src="js/loader.js"></script>
+
+      <script>
+
+      function preloadMyImages()
+       {
+
+           var imageList = [
+               "image/sl1.png",
+               "image/s1.png",
+              
+
+           ];
+
+           for(var i = 0; i < imageList.length; i++ )
+           {
+               var imageObject = new Image();
+               imageObject.src = imageList[i];
+           }
+
+       }
+      </script>
    </body>
 </html>
