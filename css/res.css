@@ -17,14 +17,30 @@
     padding-left: 10px;
 }
 .process-area .p-timeline .column p {
-    letter-spacing: 0.2px;
+       letter-spacing: 0.2px;
     color: #fff;
-    padding: 12px 28px 0px 50px;
+    padding: 12px 0px 0px 0px;
 }
 .process-area .p-timeline .column .media .media-body h2 {
     font: 400 19px/34px "rexlia";
     color: #fff;
     display: inline-block;
+}
+.process-area .p-timeline .column .timeline {
+    width: 476px;
+    float: right;
+}
+.process-area .p-timeline .column {
+    width: 50%;
+    float: left;
+    margin-bottom: 4em;
+    position: relative;
+}
+.deal{
+    margin-left: .1px;
+}
+.rel{
+        margin-top: -96px;
 }
 }
 @media only screen and (min-width: 1601px) and (max-width: 2400px){
@@ -581,4 +597,32 @@ h1 {
     font-size:12px;
 
  }
+}
+@-moz-document url-prefix() {
+    .logo-img-solution {
+      margin-left: 0em !important;
+    }
+}
+@media screen and (min-color-index:0)
+and(-webkit-min-device-pixel-ratio:0) { @media
+{
+    .logo-img-solution {
+      margin-left: 0.5em !important;
+    }
+}}
+@media not all and (min-resolution:.001dpcm) { @media
+{
+     .logo-img-solution {
+      margin-left: 0.5em !important;
+    }
+}}
+_::-webkit-full-page-media, _:future, :root .logo-img-solution {
+
+   margin-left: 0.5em !important;
+
+}
+.line {
+    margin: 25px 0;
+    height: 1px;
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(0, 149, 81) 100%);
 }
