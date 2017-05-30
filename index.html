@@ -65,15 +65,21 @@
             }
          }
       //   setInterval(function(){ changeImage(); }, 1000);
-           $(".element").typed({
+          /* $(".element").typed({
+        strings: ["FINANCIAL"],
+        typeSpeed: 250,
+        startDelay: 3000,
+        showCursor: false,
+      });*/
+     function preloadMyImages()
+      {
+         setInterval(function(){ changeImage(); }, 1000);
+         $(".element").typed({
         strings: ["FINANCIAL"],
         typeSpeed: 250,
         startDelay: 3000,
         showCursor: false,
       });
-     /* function preloadMyImages()
-      {
-         setInterval(function(){ changeImage(); }, 1000);
           var imageList = [
               "image/b.png",
               "image/t.png",
@@ -82,12 +88,14 @@
               "image/ion1.png",
 
           ];
+
           for(var i = 0; i < imageList.length; i++ )
           {
               var imageObject = new Image();
               imageObject.src = imageList[i];
           }
-      }*/
+
+      }
 
 
 
