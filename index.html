@@ -96,29 +96,7 @@
           }
 
       }
-function preloader() {
-  if (document.getElementById) {
-    document.getElementById("preload-01").style.background = "url(image/b.png) no-repeat -9999px -9999px";
-    document.getElementById("preload-02").style.background = "url(image/t.png) no-repeat -9999px -9999px";
-    document.getElementById("preload-03").style.background = "url(image/m.png) no-repeat -9999px -9999px";
-    document.getElementById("preload-04").style.background = "url(image/ioff1.png) no-repeat -9999px -9999px";
-    document.getElementById("preload-05").style.background = "url(image/ion1.png) no-repeat -9999px -9999px";
-  }
-}
-function addLoadEvent(func) {
-  var oldonload = window.onload;
-  if (typeof window.onload != 'function') {
-    window.onload = func;
-  } else {
-    window.onload = function() {
-      if (oldonload) {
-        oldonload();
-      }
-      func();
-    }
-  }
-}
-addLoadEvent(preloader);
+
 
 
       </script>
