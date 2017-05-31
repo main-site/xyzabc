@@ -1847,8 +1847,8 @@ a, .btn, button {
     background-size: cover !important;
 }
 .solutions-index{
- background: url(../image/sl1.png) no-repeat  !important;
-
+ /*background: url(../image/sl1.png) no-repeat  !important;*/
+    background: url(../image/sl1.png) no-repeat #000 !important;
     z-index: 1;
         background-attachment: fixed !important;
         background-size: cover !important;
