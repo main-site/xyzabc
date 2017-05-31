@@ -1,5 +1,8 @@
 
-;(function($) {
+
+
+$( document ).ready(function() {
+    ;(function($) {
     "use strict";
     var count = 0;
     function afterReveal (el) {
@@ -24,5 +27,4 @@
       
     
 })(jQuery)
-
-
+});
