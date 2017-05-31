@@ -20,7 +20,7 @@
 	margin: 5px 0 0 0;
 }
 .counter ul.countdown li.sec{
-	text-align: left; /* display: inline-block ; */
+	text-align: left; 
 }
 .counter ul.countdown li.sec span.ab {
 	display: none;
