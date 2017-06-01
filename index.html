@@ -15,7 +15,14 @@
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" type="text/css" href="css/res.css">
         <style>
+            .hide1{
 
+              display: none;
+            }
+             .hide2{
+
+              display: block;
+            }
         </style>
    </head>
    <body onload="preloadMyImages();">
@@ -26,7 +33,7 @@
          <!--starts logo div -->
          <div class="container">
             <div class="row">
-               <div class="col-md-12 col-xs-12 top-image" id="imgb" style="display:none;">
+               <div class="col-md-12 col-xs-12 top-image hide1" id="imgb" >
                   <div class="col-md-3 text-center col-sm-3  col-xs-3 col-md-offset-1">
                      <div  data-wow-delay="2.5s"  class="wow bounceInLeft"><img   src="image/b.png" alt="b"  class="intro-text-image responsive"> </div>
                   </div>
@@ -81,7 +88,7 @@
 
         
       $(document).ready(function(){ 
- $("imgb").css("display", "block");
+ $("imgb").removeClass( "hide1" ).addClass( "hide2" );
 
 });
      function preloadMyImages()
