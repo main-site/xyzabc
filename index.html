@@ -86,7 +86,8 @@
 
       </script>
       <script type="text/javascript">
-      var flag=false;
+      var flag="false";
+      var temp;
          $(document).ready(function(){
 
 
@@ -100,16 +101,25 @@
           window.location.href = 'home.html';
                }
            });
-            if (flag==false) {
-              setTimeout(function(){ $( ".container" ).mousemove(function( event ) {
-              alert("hello");
-            /* window.top.location = 'home.html';
-          window.location.href = 'home.html';*/
-            flag=true;
-         });}, 8000);
+            if (flag=="false") {
+             myFunction();
+              flag="true";
             }
            
+function myFunction() {
+   temp=setTimeout(alertFunc, 8000);
+    
+}
 
+function alertFunc() {
+   $( ".container" ).one('mousemove', function(e) {
+              
+             window.top.location = 'home.html';
+          window.location.href = 'home.html';
+            clearTimeout(temp);
+         });
+
+}
 
             $('body').bind('click', function(e){
             window.top.location = 'home.html';
@@ -126,12 +136,12 @@
            vid.playbackRate = 20;
          }
 
-         setTimeout(function(){ 
+         /*setTimeout(function(){ 
 
           window.top.location = 'home.html';
           window.location.href = 'home.html';
 
-        }, 14000);
+        }, 14000);*/
       </script>
    </body>
 </html>
