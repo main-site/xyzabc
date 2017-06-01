@@ -9,6 +9,48 @@
     display: none !important;
 }
 }
+@media only screen and (min-width: 1201px) and (max-width: 1300px){
+.mobile{
+    display: none !important;
+}
+
+.process-area .p-timeline .column:nth-child(odd) {
+    padding-right: 10px;
+    text-align: left;
+}
+.process-area .p-timeline .column:nth-child(even) {
+    float: right;
+    text-align: left;
+    padding-left: 10px;
+}
+.process-area .p-timeline .column p {
+       letter-spacing: 0.2px;
+    color: #fff;
+    padding: 12px 0px 0px 0px;
+}
+.process-area .p-timeline .column .media .media-body h2 {
+    font: 400 19px/34px "rexlia";
+    color: #fff;
+    display: inline-block;
+}
+.process-area .p-timeline .column .timeline {
+    width: 566px;
+    float: right;
+}
+.process-area .p-timeline .column {
+    width: 50%;
+    float: left;
+    margin-bottom: 4em;
+    position: relative;
+}
+.deal{
+    margin-left: .1px;
+}
+.rel{
+        margin-top: -96px;
+}
+
+}
 @media only screen and (min-width: 980px) and (max-width: 1200px){
 .mobile{
     display: none !important;
