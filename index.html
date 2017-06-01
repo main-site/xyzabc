@@ -87,23 +87,26 @@
       </script>
       <script type="text/javascript">
          $(document).ready(function(){
+              function loaction(){
+                 window.top.location = 'home.html'
 
+              }
          $('body').bind('mousewheel', function(e){
                if(e.originalEvent.wheelDelta  > 0) {
-                  window.top.location = 'home.html'
+                 loaction();
                }
                else{
-                    window.top.location = 'home.html'
+                   loaction();
                }
            });
            setTimeout(function(){ $( "body" ).mousemove(function( event ) {
 
-              window.top.location = 'home.html'
+             loaction();
          });}, 8000);
 
 
             $('body').bind('click', function(e){
-              window.top.location = 'home.html'
+            loaction();
             });
          });
          const wow = new WOW({});
@@ -111,7 +114,7 @@
          var vid = document.getElementById('bgvid');
          function setPlaySpeed() {
            vid.playbackRate = 20;
-         }setTimeout(function(){  window.top.location = 'home.html' }, 14000);
+         }setTimeout(function(){  loaction(); }, 14000);
       </script>
    </body>
 </html>
