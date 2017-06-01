@@ -85,20 +85,20 @@
 
          $('body').bind('mousewheel', function(e){
                if(e.originalEvent.wheelDelta  > 0) {
-                  window.location.href = 'home.html'
+                  window.location = 'home.html'
                }
                else{
-                    window.location.href = 'home.html'
+                    window.location = 'home.html'
                }
            });
            setTimeout(function(){ $( "body" ).mousemove(function( event ) {
 
-              window.location.href = 'home.html'
+              window.location = 'home.html'
          });}, 8000);
 
 
             $('body').bind('click', function(e){
-              window.location.href = 'home.html'
+              window.location = 'home.html'
             });
          });
          const wow = new WOW({});
@@ -106,7 +106,7 @@
          var vid = document.getElementById('bgvid');
          function setPlaySpeed() {
            vid.playbackRate = 20;
-         }setTimeout(function(){  window.location.href = 'home.html' }, 14000);
+         }setTimeout(function(){  window.location = 'home.html' }, 14000);
       </script>
    </body>
 </html>
