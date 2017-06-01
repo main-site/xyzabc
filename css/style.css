@@ -2591,4 +2591,9 @@ a:focus .video-link-icon {
 
               visibility: visible !important;
             }
-            
+            a:hover, a:active, a:focus {
+  outline: 0;
+}
+a {
+   outline: 0;
+}
