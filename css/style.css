@@ -974,11 +974,14 @@ a, .btn, button {
 }
 @font-face {
     font-family: rexlia;
+    src:url('../fonts/rexliarg.eot');
     src: url(../fonts/rexliarg.ttf) format('truetype'),
-             url(../fonts/rexliarg.woff) format('woff'),
-
-
+        url(../fonts/rexliarg.woff) format('woff'),
+        url('../fonts/rexliarg.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/rexliarg.woff') format('woff'),
+		url('../fonts/rexliarg.ttf') format('truetype'),
 }
+
 @font-face {
     font-family: Neuton;
     src: url(../fonts/Neuton-Light.ttf);

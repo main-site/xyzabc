@@ -1,5 +1,6 @@
 @font-face {
 	font-family: 'ElegantIcons';
+	
 	src:url('../fonts/ElegantIcons.eot');
 	src:url('../fonts/ElegantIconsd41d.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ElegantIcons.woff') format('woff'),
@@ -8,6 +9,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
