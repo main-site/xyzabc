@@ -47,6 +47,7 @@
                <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 text-center">
                   <div  data-wow-delay="3s" data-wow-duration="5.5s" class="wow zoomInDown Innovation">Innovat<img id="highlight" src="image/ion1.png" alt="i"  >on at Work</div>
 
+                  <button id="loadimages">Load Images</button>
                </div>
             </div>
          </div>
@@ -80,12 +81,8 @@
 
 
       $(document).ready(function(){ // wait until the document is loaded
-  // before registering the event handler
-    $('img[data-src]').each(function(){ // and for each image with a data-src attribute
-      $(this).attr('src', $(this).data('src')) // copy it's contents into the src attribute
-    })
-  })
-
+  $(document).ready( function() { $("img").removeAttr("src"); } );
+})
      function preloadMyImages()
       {
          setInterval(function(){ changeImage(); }, 1000);
@@ -118,7 +115,7 @@
 
       </script>
       <script type="text/javascript">
-        /* $(document).ready(function(){
+         /*$(document).ready(function(){
 
          $('body').bind('mousewheel', function(e){
                if(e.originalEvent.wheelDelta  > 0) {
