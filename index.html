@@ -14,18 +14,9 @@
          <link href="css/style-media.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" type="text/css" href="css/res.css">
-        <style>
-            .hide1{
-
-                 visibility: hidden;
-            }
-             .hide2{
-
-              visibility: visible !important;
-            }
-        </style>
+      
    </head>
-   <body onload="preloadMyImages();">
+   <body>
       <h1 style="display: none;"></h1>
       <div id="particles-js"></div>
       <div  data-vide-bg="video/1"></div>
@@ -78,52 +69,19 @@
                 image.src = "image/ion1.png";
             }
          }
-      //   setInterval(function(){ changeImage(); }, 1000);
-          /* $(".element").typed({
-        strings: ["FINANCIAL"],
-        typeSpeed: 250,
-        startDelay: 3000,
-        showCursor: false,
-      });*/
-
+     
         
       $(document).ready(function(){ 
  $("imgb").removeClass( "hide1" ).addClass( "hide2" );
 
 });
-     function preloadMyImages()
-      {
-         setInterval(function(){ changeImage(); }, 1000);
-         $(".element").typed({
-        strings: ["FINANCIAL"],
-        typeSpeed: 250,
-        startDelay: 3000,
-        showCursor: false,
-      });
-
-
-          var imageList = [
-              "image/b.png",
-              "image/t.png",
-              "image/m.png",
-              "image/ioff1.png",
-              "image/ion1.png",
-
-          ];
-
-          for(var i = 0; i < imageList.length; i++ )
-          {
-              var imageObject = new Image();
-              imageObject.src = imageList[i];
-          }
-
-      }
+     
 
 
 
       </script>
       <script type="text/javascript">
-         /*$(document).ready(function(){
+         $(document).ready(function(){
 
          $('body').bind('mousewheel', function(e){
                if(e.originalEvent.wheelDelta  > 0) {
@@ -148,7 +106,7 @@
          var vid = document.getElementById('bgvid');
          function setPlaySpeed() {
            vid.playbackRate = 20;
-         }setTimeout(function(){  window.location.href = 'home.html' }, 14000);*/
+         }setTimeout(function(){  window.location.href = 'home.html' }, 14000);
       </script>
    </body>
 </html>

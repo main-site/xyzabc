@@ -2684,3 +2684,11 @@ a:focus .video-link-icon {
 .ut{
 	height: 263px;
 }
+ .hide1{
+
+                 visibility: hidden;
+            }
+             .hide2{
+
+              visibility: visible !important;
+            }
