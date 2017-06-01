@@ -86,7 +86,10 @@
 
       </script>
       <script type="text/javascript">
+      var flag=false;
          $(document).ready(function(){
+
+
          $('body').bind('mousewheel', function(e){
                if(e.originalEvent.wheelDelta  > 0) {
                  window.top.location = 'home.html';
@@ -97,12 +100,15 @@
           window.location.href = 'home.html';
                }
            });
-
-           setTimeout(function(){ $( ".container" ).mousemove(function( event ) {
+            if (flag==false) {
+              setTimeout(function(){ $( ".container" ).mousemove(function( event ) {
               alert("hello");
             /* window.top.location = 'home.html';
           window.location.href = 'home.html';*/
+            flag=true;
          });}, 8000);
+            }
+           
 
 
             $('body').bind('click', function(e){
