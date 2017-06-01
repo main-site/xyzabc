@@ -125,7 +125,6 @@ background:#fdf;
 
 
 
-/* chrome firefox */
  #hover-cap-4col .thumbnail {
     position:relative;
     overflow:hidden;
@@ -224,6 +223,4 @@ background:#fdf;
     color: #fff;
         box-shadow: none !important;
     }
-    /*.thumbnails>.caption:hover {
-    box-shadow: 0 2px 2px 0 rgb(255, 255, 255), -1px 3px 20px 5px rgb(255, 255, 255), 0 3px 1px -2px rgb(255, 255, 255) !important;
-}*/
+    
