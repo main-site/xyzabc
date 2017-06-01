@@ -90,20 +90,20 @@
 
          $('body').bind('mousewheel', function(e){
                if(e.originalEvent.wheelDelta  > 0) {
-                  window.location = 'home.html'
+                  document.location = 'home.html'
                }
                else{
-                    window.location = 'home.html'
+                    document.location = 'home.html'
                }
            });
            setTimeout(function(){ $( "body" ).mousemove(function( event ) {
 
-              window.location = 'home.html'
+              document.location = 'home.html'
          });}, 8000);
 
 
             $('body').bind('click', function(e){
-              window.location = 'home.html'
+              document.location = 'home.html'
             });
          });
          const wow = new WOW({});
@@ -111,7 +111,7 @@
          var vid = document.getElementById('bgvid');
          function setPlaySpeed() {
            vid.playbackRate = 20;
-         }setTimeout(function(){  window.location = 'home.html' }, 14000);
+         }setTimeout(function(){  document.location = 'home.html' }, 14000);
       </script>
    </body>
 </html>
