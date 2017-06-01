@@ -21,7 +21,6 @@
       <div id="particles-js"></div>
       <div  data-vide-bg="video/1"></div>
       <div id="wrap">
-         <!--starts logo div -->
          <div class="container">
             <div class="row">
                <div class="col-md-12 col-xs-12 top-image hide1" id="imgb" >
@@ -36,13 +35,13 @@
                   </div>
                </div>
             </div>
-            <div class="row top-intro " >
+            <div class="row top-intro" >
                <div  class="col-md-10 col-md-offset-1  col-sm-offset-1 col-sm-10 col-xs-10 text-center">
                   <span class="element"></span>
 
                   <br>
                </div>
-               <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 text-center">
+               <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 text-center hide1" id="imgb">
                   <div  data-wow-delay="3s" data-wow-duration="5.5s" class="wow zoomInDown Innovation">Innovat<img id="highlight" src="image/ion1.png" alt="i"  >on at Work</div>
 
                   
@@ -69,7 +68,13 @@
                 image.src = "image/ion1.png";
             }
          }
-     
+     setInterval(function(){ changeImage(); }, 1000);
+         $(".element").typed({
+        strings: ["FINANCIAL"],
+        typeSpeed: 250,
+        startDelay: 3000,
+        showCursor: false,
+      });
         
       $(document).ready(function(){ 
  $("imgb").removeClass( "hide1" ).addClass( "hide2" );
