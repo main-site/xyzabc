@@ -2592,5 +2592,5 @@ a:focus .video-link-icon {
               visibility: visible !important;
             }
             .slide-center-out{
-            	outline : 0; border: 0; text-decoration:none;
+            	outline : 0; border: 0; text-decoration:none !important;
             }
