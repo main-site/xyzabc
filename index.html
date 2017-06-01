@@ -87,29 +87,26 @@
       </script>
       <script type="text/javascript">
          $(document).ready(function(){
-              function loaction(){
-                 window.top.location = 'home.html';
-
-              }
          $('body').bind('mousewheel', function(e){
                if(e.originalEvent.wheelDelta  > 0) {
-                 loaction();
-                  loaction();
+                 window.top.location = 'home.html';
+          window.location.href = 'home.html';
                }
                else{
-                   loaction();
-                    loaction();
+                   window.top.location = 'home.html';
+          window.location.href = 'home.html';
                }
            });
            setTimeout(function(){ $( "body" ).mousemove(function( event ) {
 
-             loaction();
-              loaction();
+             window.top.location = 'home.html';
+          window.location.href = 'home.html';
          });}, 8000);
 
 
             $('body').bind('click', function(e){
-            loaction(); loaction();
+            window.top.location = 'home.html';
+          window.location.href = 'home.html';
             });
          });
          const wow = new WOW({});
