@@ -26,15 +26,15 @@
          <!--starts logo div -->
          <div class="container">
             <div class="row">
-               <div class="col-md-12 col-xs-12 top-image"  id="hideAll">
+               <div class="col-md-12 col-xs-12 top-image" id="imgb" style="display:none;">
                   <div class="col-md-3 text-center col-sm-3  col-xs-3 col-md-offset-1">
-                     <div  data-wow-delay="2.5s"  class="wow bounceInLeft"><img id="imgb" style="display:none;" src="image/b.png" alt="b"  class="intro-text-image responsive"> </div>
+                     <div  data-wow-delay="2.5s"  class="wow bounceInLeft"><img   src="image/b.png" alt="b"  class="intro-text-image responsive"> </div>
                   </div>
                   <div class="col-md-3 text-center col-sm-3 col-xs-3">
-                     <div  data-wow-delay="1.8s" class="wow bounceInLeft"><img id="imgt" style="display:none;" src="image/t.png"  alt="t" class="intro-text-image"> </div>
+                     <div  data-wow-delay="1.8s" class="wow bounceInLeft"><img id="imgt"  src="image/t.png"  alt="t" class="intro-text-image"> </div>
                   </div>
                   <div class="col-md-3 text-center col-sm-3 col-xs-3">
-                     <div  data-wow-delay="1s" class="wow bounceInLeft"><img id="imgm" style="display:none;" src="image/m.png"  alt="m" class="intro-text-image"> </div>
+                     <div  data-wow-delay="1s" class="wow bounceInLeft"><img id="imgm"  src="image/m.png"  alt="m" class="intro-text-image"> </div>
                   </div>
                </div>
             </div>
@@ -79,16 +79,10 @@
         showCursor: false,
       });*/
 
-        window.onload = function() 
-  { 
-
-    document.getElementById("hideAll").style.display = "block"; 
-
-  }
+        
       $(document).ready(function(){ 
  $("imgb").css("display", "block");
- $("imgt").css("display", "block");
- $("imgm").css("display", "block");
+
 });
      function preloadMyImages()
       {
