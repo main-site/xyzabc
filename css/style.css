@@ -972,7 +972,7 @@ a, .btn, button {
     opacity: 0.95;
     z-index: -1;
 }
-@font-face {
+/*@font-face {
     font-family: rexlia;
     src:url('../fonts/rexliarg.eot');
     src: url(../fonts/rexliarg.ttf) format('truetype'),
@@ -980,8 +980,20 @@ a, .btn, button {
         url('../fonts/rexliarg.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/rexliarg.woff') format('woff'),
 		url('../fonts/rexliarg.ttf') format('truetype'),
-}
-
+}*/
+/*@font-face {
+    font-family: rexlia;
+    src: url(../fonts/rexliarg.ttf);
+}*/
+ @font-face {
+ 	font-family:"rexlia";
+     src:url("../fonts/rexliarg.eot?") format("eot"),
+     url("../fonts/rexliarg.woff") format("woff"),
+     url("../fonts/rexliarg.ttf") format("truetype"),
+     url("../fonts/rexliarg.svg#RexliaFree-Regular") format("svg");
+     font-weight:normal;
+     font-style:normal;
+   }
 @font-face {
     font-family: Neuton;
     src: url(../fonts/Neuton-Light.ttf);
@@ -1776,10 +1788,7 @@ a, .btn, button {
     opacity: 0.95;
     z-index: -1;
 }
-@font-face {
-    font-family: rexlia;
-    src: url(../fonts/rexliarg.ttf);
-}
+
 @font-face {
     font-family: Neuton;
     src: url(../fonts/Neuton-Light.ttf);
