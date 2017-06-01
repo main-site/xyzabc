@@ -26,25 +26,25 @@
          <!--starts logo div -->
          <div class="container">
             <div class="row">
-               <div class="col-md-12 col-xs-12 top-image">
+               <div class="col-md-12 col-xs-12 top-image"  id="hideAll">
                   <div class="col-md-3 text-center col-sm-3  col-xs-3 col-md-offset-1">
-                     <div  data-wow-delay="2.5s" class="wow bounceInLeft"><img src="" alt="b" data-src="image/b.png" class="intro-text-image responsive"> </div>
+                     <div  data-wow-delay="2.5s"  class="wow bounceInLeft"><img src="image/b.png" alt="b"  class="intro-text-image responsive"> </div>
                   </div>
                   <div class="col-md-3 text-center col-sm-3 col-xs-3">
-                     <div  data-wow-delay="1.8s" class="wow bounceInLeft"><img src="" data-src="image/t.png" alt="t" class="intro-text-image"> </div>
+                     <div  data-wow-delay="1.8s" class="wow bounceInLeft"><img src="image/t.png"  alt="t" class="intro-text-image"> </div>
                   </div>
                   <div class="col-md-3 text-center col-sm-3 col-xs-3">
-                     <div  data-wow-delay="1s" class="wow bounceInLeft"><img src="" data-src="image/m.png" alt="m" class="intro-text-image"> </div>
+                     <div  data-wow-delay="1s" class="wow bounceInLeft"><img src="image/m.png"  alt="m" class="intro-text-image"> </div>
                   </div>
                </div>
             </div>
-            <div class="row top-intro" >
+            <div class="row top-intro" id="hideAll">
                <div  class="col-md-10 col-md-offset-1  col-sm-offset-1 col-sm-10 col-xs-10 text-center">
                   <span class="element"></span>
 
                   <br>
                </div>
-               <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 text-center">
+               <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 text-center" id="hideAll">
                   <div  data-wow-delay="3s" data-wow-duration="5.5s" class="wow zoomInDown Innovation">Innovat<img id="highlight" src="image/ion1.png" alt="i"  >on at Work</div>
 
                   
@@ -79,10 +79,15 @@
         showCursor: false,
       });*/
 
+        window.onload = function() 
+  { 
 
-      $(document).ready(function(){ // wait until the document is loaded
-  $(document).ready( function() { $("img").removeAttr("src"); } );
-})
+    document.getElementById("hideAll").style.display = "block"; 
+
+  }
+      $(document).ready(function(){ 
+ 
+});
      function preloadMyImages()
       {
          setInterval(function(){ changeImage(); }, 1000);
