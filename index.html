@@ -4,54 +4,50 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <meta name="description" content="BTM FINANCIAL">
-        <meta name="keywords" content="BTM FINANCIAL">
-        <meta name="author" content="BTM FINANCIAL">
-           <title>BTM Financial</title>
-        <link rel="shortcut icon" href="image/fav.png">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-         <link href="css/style-media.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" type="text/css" href="css/res.css">
-      
+      <title>BTM Financial</title>
+      <link rel="shortcut icon" href="image/fav.png">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link href="css/style.css" rel="stylesheet" type="text/css" />
+      <link href="css/style-media.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" type="text/css" href="css/res.css">
+     
    </head>
    <body>
-      <h1 style="display: none;"></h1>
+      <!-- started id wrap  -->
       <div id="particles-js"></div>
-      <div  data-vide-bg="video/2"></div>
+      <div  data-vide-bg="video/1"></div>
       <div id="wrap">
+         <!--starts logo div -->
          <div class="container">
             <div class="row">
-               <div class="col-md-12 col-xs-12 top-image hide1" id="imgb" >
+               <div class="col-md-12 col-xs-12 top-image">
                   <div class="col-md-3 text-center col-sm-3  col-xs-3 col-md-offset-1">
-                     <div  data-wow-delay="2.5s"  class="wow bounceInLeft"><img   src="image/b.png" alt="b"  class="intro-text-image responsive"> </div>
+                     <div  data-wow-delay="2.5s" class="wow bounceInLeft"><img src="image/b.png" alt=""  class="intro-text-image responsive"> </div>
                   </div>
                   <div class="col-md-3 text-center col-sm-3 col-xs-3">
-                     <div  data-wow-delay="1.8s" class="wow bounceInLeft"><img id="imgt"  src="image/t.png"  alt="t" class="intro-text-image"> </div>
+                     <div  data-wow-delay="1.8s" class="wow bounceInLeft"><img src="image/t.png" alt="" class="intro-text-image"> </div>
                   </div>
                   <div class="col-md-3 text-center col-sm-3 col-xs-3">
-                     <div  data-wow-delay="1s" class="wow bounceInLeft"><img id="imgm"  src="image/m.png"  alt="m" class="intro-text-image"> </div>
+                     <div  data-wow-delay="1s" class="wow bounceInLeft"><img src="image/m.png" alt="" class="intro-text-image"> </div>
                   </div>
                </div>
             </div>
             <div class="row top-intro" >
                <div  class="col-md-10 col-md-offset-1  col-sm-offset-1 col-sm-10 col-xs-10 text-center">
                   <span class="element"></span>
-
+                  
                   <br>
                </div>
-               <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 text-center hide1" id="imgb">
-                  <div  data-wow-delay="3s" data-wow-duration="5.5s" class="wow zoomInDown Innovation">Innovat<img id="highlight" src="image/ion1.png" alt="i"  >on at Work</div>
-
-                  
+               <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 text-center">
+                  <div  data-wow-delay="3s" data-wow-duration="5.5s" class="wow zoomInDown Innovation">Innovat<img id="highlight" src="image/ion1.png">on at Work</div>
                </div>
             </div>
          </div>
       </div>
       <div class="clear"></div>
       </div>
-      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/jquery.js"></script> 
       <script type="text/javascript" src="js/jquery.vide.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/wow.min.js"></script>
@@ -68,80 +64,45 @@
                 image.src = "image/ion1.png";
             }
          }
-     setInterval(function(){ changeImage(); }, 1000);
-         $(".element").typed({
+         setInterval(function(){ changeImage(); }, 1000);
+           $(".element").typed({
         strings: ["FINANCIAL"],
         typeSpeed: 250,
         startDelay: 3000,
         showCursor: false,
       });
-        
-      $(document).ready(function(){ 
- $("imgb").removeClass( "hide1" ).addClass( "hide2" );
-
-});
-     
-
-
-
+         
+         
+      
+         
       </script>
       <script type="text/javascript">
-      var flag="false";
-      var temp;
          $(document).ready(function(){
-
-
+            //location.reload(true);
          $('body').bind('mousewheel', function(e){
                if(e.originalEvent.wheelDelta  > 0) {
-                 window.top.location = 'home.html';
-          window.location.href = 'home.html';
+                  window.location.href = 'home.html'
                }
                else{
-                   window.top.location = 'home.html';
-          window.location.href = 'home.html';
+                    window.location.href = 'home.html'
                }
            });
-            if (flag=="false") {
-             myFunction();
-              flag="true";
-            }
-           
-function myFunction() {
-   temp=setTimeout(alertFunc, 8000);
-    
-}
-
-function alertFunc() {
-   $( ".container" ).one('mousemove', function(e) {
-              
-             window.top.location = 'home.html';
-          window.location.href = 'home.html';
-            clearTimeout(temp);
-         });
-
-}
-
+           setTimeout(function(){ $( "body" ).mousemove(function( event ) {
+             
+              window.location.href = 'home.html'
+         });}, 8000);
+         
+         
             $('body').bind('click', function(e){
-            window.top.location = 'home.html';
-          window.location.href = 'home.html';
+              window.location.href = 'home.html'
             });
          });
-
-
-
          const wow = new WOW({});
          wow.sync();
          var vid = document.getElementById('bgvid');
-         function setPlaySpeed() {
+         function setPlaySpeed() { 
            vid.playbackRate = 20;
-         }
-
-         setTimeout(function(){ 
-
-          window.top.location = 'home.html';
-          window.location.href = 'home.html';
-
-        }, 14000);
-      </script>
+         }setTimeout(function(){  window.location.href = 'home.html' }, 14000);
+      </script> 
    </body>
 </html>
