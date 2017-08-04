@@ -1863,7 +1863,7 @@ a, .btn, button {
 }
 
 
-.slide-center-out
+/*.slide-center-out
 {
 text-decoration:none;
 display: inline-block;
@@ -1882,15 +1882,15 @@ transition: width .5s ease, background-color .5s ease;
 -moz-transition: width .5s ease, background-color .5s ease;
 
 margin:auto; 
-}
+}*/
 
 
-.slide-center-out:hover:after
+/*.slide-center-out:hover:after
 {
 width: 100%;
         background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(0, 149, 81) 100%););
 
-}
+}*/
 .why-choose-us-area {
     background: url(../image/back2.png) no-repeat  !important;
     min-height: 835px;
@@ -2612,4 +2612,8 @@ a {
     position: relative;
     z-index: 5;
 
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#diez  { color: red  }
 }
