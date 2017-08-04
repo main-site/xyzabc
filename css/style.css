@@ -2608,4 +2608,8 @@ a:focus .video-link-icon {
 }
 a {
    outline: 0;
+
+    position: relative;
+    z-index: 5;
+
 }
