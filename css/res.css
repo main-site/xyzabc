@@ -298,12 +298,13 @@ h1 {
 .main-nav>li>a {
     color: #fff;
     text-align: center;
-      padding: 28px 0px 0px 20px;
+      padding: 0px;
     font-family: rexlia;
     font-size: 17px;
     font-style: normal;
     font-variant: normal;
     color: #fff;
+        margin: 29px;
 }
 .why-choose-us-area:after {
     display: none;
@@ -327,7 +328,8 @@ h1 {
     margin-left: 2em;
 }
 .main-nav {
-    margin-top: 10px;
+   margin-top: 30px;
+    
     margin-left: 0;
 }
 .logo-img {
@@ -401,9 +403,10 @@ h1 {
  display: none;
 }
 .main-nav>li>a {
-       padding: 17px 0px 0px 60px;
-    font-size: 17px;
-
+      /* padding: 17px 0px 0px 60px;*/
+    padding: 0px !important;
+    font-size: 12px;
+    margin: 50px;
 }
 .main-h {
     top: 10px;
@@ -669,4 +672,13 @@ _::-webkit-full-page-media, _:future, :root .logo-img-solution {
     margin: 25px 0;
     height: 1px;
     background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(0, 149, 81) 100%);
+}
+
+
+@media only screen and (max-width: 445px) and (min-width: 361px)
+{
+.main-nav li {
+    display: inline;
+    margin: 24px;
+}
 }
