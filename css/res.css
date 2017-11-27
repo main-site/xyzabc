@@ -787,7 +787,7 @@ width: 100%;
 .logo-img {
         min-height: 109px;
     min-width: 138px;
-    margin-left: 2em;
+    margin-left: 0em;
 }
 .thumb-gallery {
     margin-left: 0px !important;
@@ -924,18 +924,14 @@ h1 {
 .logo-img {
         min-height: 109px;
     min-width: 138px;
-    margin-left: 2em;
+    margin-left: 0em;
 }
 .main-nav {
    margin-top: 30px;
     
     margin-left: 0;
 }
-.logo-img {
-        min-height: 109px;
-    min-width: 138px;
-    margin-left: 2em;
-}
+
 .logo-img-solution{
 	  min-height: 109px;
     min-width: 138px;
@@ -1052,7 +1048,7 @@ h1 {
 .logo-img {
         min-height: 109px;
     min-width: 138px;
-    margin-left: 2em;
+    margin-left: 0em;
 }
 .logo-img-solution{
 	           min-height: 110px;
