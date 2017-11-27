@@ -2534,3 +2534,16 @@ a {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 #diez  { color: red  }
 }
+
+
+ .main-nav>li>a{
+      color: #fff;
+      text-align: center;
+      padding: 30px !important;
+      font-family: rexlia;
+  font-size: 18px ;
+  font-style: normal;
+  font-variant: normal;
+
+  color: #fff;
+}
