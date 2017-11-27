@@ -2539,11 +2539,14 @@ a {
  .main-nav>li>a{
       color: #fff;
       text-align: center;
-      padding: 30px !important;
+      padding: 30px;
       font-family: rexlia;
   font-size: 18px ;
   font-style: normal;
   font-variant: normal;
 
   color: #fff;
+}
+.fixed-a{
+	position: fixed;z-index: 999;width: 203px;left: 0;border-radius: 5px;top: 112px
 }

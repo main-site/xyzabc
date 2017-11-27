@@ -629,7 +629,8 @@ width: 100%;
 
     color: #fff;
     text-align: center;
-    padding: 24px;
+    padding: 12px;
+    font-size: 16px;
 }
 h1 {
     font-size: 13px;
@@ -760,7 +761,7 @@ width: 100%;
 
     color: #fff;
     text-align: center;
-    padding: 25px 0px 0px 53px;
+        padding: 25px 0px 0px 12px;
     font-family: rexlia;
     font-size: 14px;
     font-style: normal;
@@ -850,6 +851,11 @@ h1 {
       font-variant: normal;
       color: #fff;
   }
+  .logo-img {
+    min-height: 109px;
+    min-width: 138px;
+    margin-left: 0em;
+}
 }
 @media only screen and (min-width: 481px) and (max-width: 767px)
  {
@@ -859,7 +865,9 @@ h1 {
     height: 150px;
     width: 150px;
 }
-
+.fixed-a {
+   display: none;
+}
 .element{
 	font-size: 87px;
     text-align: center;
@@ -889,13 +897,13 @@ h1 {
 .main-nav>li>a {
     color: #fff;
     text-align: center;
-      padding: 0px;
+    padding: 0px;
     font-family: rexlia;
-    font-size: 17px;
+    font-size: 12px;
     font-style: normal;
     font-variant: normal;
     color: #fff;
-        margin: 29px;
+    margin: 1px;
 }
 .why-choose-us-area:after {
     display: none;
@@ -932,6 +940,11 @@ h1 {
 	  min-height: 109px;
     min-width: 138px;
     margin-left: 2em;
+}
+.logo-img {
+    min-height: 109px;
+    min-width: 138px;
+    margin-left: 0em;
 }
 /*solution*/
 
@@ -970,6 +983,14 @@ h1 {
 .intro-text-image{
 	height: 70px ;
 	width: 65px ;
+}
+.logo-img {
+    min-height: 109px;
+    min-width: 138px;
+    margin-left: 0em;
+}
+.fixed-a {
+   display: none;
 }
 .element{
 	font-size: 33px;
@@ -1131,6 +1152,18 @@ h1 {
 	height: 70px ;
 	width: 65px ;
 }
+.logo-img {
+    min-height: 109px;
+    min-width: 138px;
+    margin-left: 0em;
+}
+.fixed-a {
+   display: none;
+}
+.main-nav li {
+    display: block;
+  
+}
 .element{
 	font-size: 30px;
     text-align: center;
@@ -1158,7 +1191,7 @@ h1 {
     /* font-size: 20px; */
     color: #fff;
     text-align: center;
-    padding: 25px 0px 0px 53px;
+    padding: 0px;
     font-family: rexlia;
     font-size: 15px;
     font-style: normal;
@@ -1197,7 +1230,7 @@ h1 {
     color: #fff;
     box-shadow: none !important;
 }
-.logo-img {
+.logo-img{
         min-height: 109px;
     min-width: 138px;
     margin-left: 2em;
@@ -1269,7 +1302,15 @@ _::-webkit-full-page-media, _:future, :root .logo-img-solution {
 @media only screen and (max-width: 445px) and (min-width: 361px)
 {
 .main-nav li {
-    display: inline;
+    display: block;
     margin: 24px;
+}
+.fixed-a {
+   display: none;
+}
+.logo-img {
+    min-height: 109px;
+    min-width: 138px;
+    margin-left: 0em;
 }
 }
