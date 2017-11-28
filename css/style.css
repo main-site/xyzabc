@@ -2550,3 +2550,8 @@ a {
 .fixed-a{
 	position: fixed;z-index: 999;width: 203px;left: 0;border-radius: 5px;top: 112px
 }
+
+.btm-link:hover{
+          color: #fff;
+          text-decoration: underline !important;
+        }
